@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="TopBar" style="flex-grow: 0; height: 50px; flex-shrink: 1; top: 10px; align-items: center; justify-content: center;">
+        <ui:VisualElement name="MoneyView" style="flex-grow: 1; flex-shrink: 0; flex-direction: row; height: 50px; min-width: 50px; max-height: 50px;">
+            <ui:Image name="Image" source="project://database/Assets/RainyPlanet/Sprites/Props.png?fileID=4556875247267356194&amp;guid=79514ebc465060d4ca3d218311d35cc6&amp;type=3#Props_8" style="align-self: flex-start; width: 50px; flex-shrink: 0;"/>
+            <ui:Label text="&lt;#AAAA&gt;0000&lt;#FFFF&gt;1" data-source-type="RainyPlanet.UI.MainViewModel, Assembly-CSharp" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Bitrimus/Bitrimus.ttf?fileID=12800000&amp;guid=d2ca2073c2c87c64294092b3c2af14a4&amp;type=3#Bitrimus&quot;); font-size: 67px; -unity-text-align: middle-left; margin-left: 8px; margin-bottom: 12px;">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-type="RainyPlanet.UI.MainViewModel, Assembly-CSharp" data-source-path="Money" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

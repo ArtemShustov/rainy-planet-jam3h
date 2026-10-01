@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; height: 100px;">
+        <ui:Image source="project://database/Assets/RainyPlanet/Sprites/Props.png?fileID=4556875247267356194&amp;guid=79514ebc465060d4ca3d218311d35cc6&amp;type=3#Props_8" style="flex-grow: 0; flex-shrink: 0; width: 80px; height: 100px;"/>
+        <ui:Label text="000" style="flex-grow: 1; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Bitrimus/Bitrimus.ttf?fileID=12800000&amp;guid=d2ca2073c2c87c64294092b3c2af14a4&amp;type=3#Bitrimus&quot;); font-size: 100px; -unity-text-align: middle-left; padding-top: 38px;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Cost" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>
